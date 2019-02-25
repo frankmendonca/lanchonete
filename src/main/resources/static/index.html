@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Lanchonete</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<h1>Lanchonete</h1>
+	<table id="tableLanches">
+		<thead>
+			<tr>
+				<th class="check_column"></th>
+				<th class="lanche_column">Lanche</th>
+				<th class="ingrediente_column">Ingredientes</th>
+			</tr>
+		</thead>
+		<tbody>
+		</tbody>
+	</table>
+	<p>
+		<button id="botaoPersonalizar">Personalizar Lanche</button>
+		<button id="botaoFinalizarCompra">Finalizar Compra</button>
+	</p>
+	<table id="tableIngredientes">
+		<thead>
+			<tr>
+				<th class="ingrediente_column">Ingredientes</th>
+				<th class="quantidade_column">Qtde</th>
+			</tr>
+		</thead>
+		<tbody>
+		</tbody>
+	</table>
+	<br>
+	<div id="relatorio">
+		<h3>Resumo</h3><hr>
+		<pre id="resumo">
+		</pre>
+		
+		<h3>Preço Final</h3><hr>
+		<pre id="precoFinal">
+		</pre>
+	</div>
+
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+	
+</body>
+</html>
