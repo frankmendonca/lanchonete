@@ -1,9 +1,9 @@
 # Lanchonete
 
-## Compliação
+## Compilação
 
 ```bash
-$ mvn clean package
+$ ./mvnw clean package
 ```
 
 ## Subir Spring Boot
